@@ -87,7 +87,7 @@ npm run demo:html
 | `timezone`          | `string`                              | system  | Override timestamp timezone for rendering. |
 | `locale`            | `string`                              | `"en-US"` | Locale for timestamp formatting. |
 | `customCss`         | `string`                              | `""`    | Append custom CSS to HTML export. |
-| `componentRenderer` | `"native" \| "skyra"`              | `"skyra"` | Controls how interactive components are rendered (Skyra web components or fallback builder). |
+| `componentRenderer` | `"native" \| "skyra"`              | `"native"` | Controls how interactive components are rendered (Skyra web components or fallback builder). |
 | `adapter`           | `string`                              | auto    | Force a specific library adapter. |
 | `fetchOptions`      | `{ token, channelId, before, after }` | —       | Extra hints when auto-fetching from channels. |
 

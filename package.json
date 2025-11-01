@@ -1,0 +1,58 @@
+{
+  "name": "discord-transcript-next",
+  "version": "0.1.0",
+  "description": "Universal, framework-agnostic Discord transcript generator with HTML, JSON, PDF, and Markdown outputs plus a CLI.",
+  "license": "MIT",
+  "author": "JonaxDevelopment",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.js"
+    },
+    "./cli": {
+      "types": "./dist/cli/index.d.ts",
+      "import": "./dist/cli/index.js",
+      "require": "./dist/cli/index.cjs",
+      "default": "./dist/cli/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "discord-transcript": "dist/cli/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf dist",
+    "dev": "tsup --watch",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "prepare": "tsup",
+    "test": "npm run build --silent && vitest run --coverage",
+    "demo:html": "npm run build --silent && node ./dist/cli/index.js export --input ./examples/messages-rich.json --format html --theme dark --pagination 25 --output ./examples/transcript-demo.html"
+  },
+  "dependencies": {
+    "@discordjs/formatters": "^0.4.0",
+    "commander": "^11.1.0",
+    "kleur": "^4.1.5",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/pdfkit": "^0.17.3",
+    "@vitest/coverage-c8": "^0.33.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "rimraf": "^5.0.5",
+    "tsup": "^8.5.0",
+    "typescript": "^5.3.3",
+    "vitest": "^0.33.0"
+  }
+}

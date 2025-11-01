@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1",
+    "content": "Hello world!",
+    "author": {
+      "id": "1000",
+      "username": "User",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/0.png"
+    },
+    "timestamp": "2025-10-10T10:00:00.000Z",
+    "attachments": [],
+    "embeds": [],
+    "reactions": []
+  },
+  {
+    "id": "2",
+    "content": "**Bold message** and ||spoiler||",
+    "author": {
+      "id": "1001",
+      "username": "Tester",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/1.png"
+    },
+    "timestamp": "2025-10-10T10:01:00.000Z",
+    "attachments": [],
+    "embeds": [],
+    "reactions": []
+  },
+  {
+    "id": "3",
+    "content": "Buttons!",
+    "author": {
+      "id": "1002",
+      "username": "Bot",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "bot": true
+    },
+    "timestamp": "2025-10-10T10:02:00.000Z",
+    "attachments": [],
+    "embeds": [],
+    "reactions": [],
+    "components": [
+      {
+        "type": 1,
+        "components": [
+          { "type": 2, "style": 1, "label": "Primary" },
+          { "type": 2, "style": 5, "label": "Docs", "url": "https://example.com" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "content": "Choose an export format",
+    "author": {
+      "id": "1003",
+      "username": "MenuBot",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/3.png",
+      "bot": true
+    },
+    "timestamp": "2025-10-10T10:03:00.000Z",
+    "attachments": [],
+    "embeds": [],
+    "reactions": [],
+    "components": [
+      {
+        "type": 1,
+        "components": [
+          {
+            "type": 3,
+            "placeholder": "Pick a format",
+            "options": [
+              { "label": "HTML", "value": "html", "default": true },
+              { "label": "Markdown", "value": "markdown" },
+              { "label": "PDF", "value": "pdf" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

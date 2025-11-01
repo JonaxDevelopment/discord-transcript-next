@@ -1,0 +1,219 @@
+[
+  {
+    "id": "9001",
+    "content": "Welcome to **discord-transcript-next**! @everyone get ready to test ||spoilers|| and `code`.",
+    "author": {
+      "id": "101",
+      "username": "LaunchUser",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/2.png"
+    },
+    "timestamp": "2025-10-10T12:00:00.000Z",
+    "mentions": {
+      "everyone": true
+    },
+    "reactions": [
+      {
+        "emoji": { "name": "🚀" },
+        "count": 7
+      }
+    ],
+    "attachments": [],
+    "embeds": []
+  },
+  {
+    "id": "9002",
+    "content": "",
+    "author": {
+      "id": "102",
+      "username": "TranscriptBot",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "bot": true
+    },
+    "timestamp": "2025-10-10T12:01:10.000Z",
+    "embeds": [
+      {
+        "title": "Release Checklist",
+        "description": "1. Fetch sample messages\n2. Generate transcript\n3. Share HTML output",
+        "color": 5793266,
+        "fields": [
+          { "name": "Status", "value": "**Ready**", "inline": true },
+          { "name": "Theme", "value": "Dark", "inline": true }
+        ],
+        "footer": { "text": "discord-transcript-next" }
+      }
+    ],
+    "attachments": [],
+    "reactions": [
+      {
+        "emoji": { "name": "✅" },
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": "9003",
+    "content": "Here is an image attachment and a follow-up reply.",
+    "author": {
+      "id": "103",
+      "username": "Visionary",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/5.png"
+    },
+    "timestamp": "2025-10-10T12:03:45.000Z",
+    "attachments": [
+      {
+        "id": "att-1",
+        "url": "https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=800&q=80",
+        "name": "design-concept.png",
+        "contentType": "image/png",
+        "width": 800,
+        "height": 533
+      }
+    ],
+    "reactions": [],
+    "reference": {
+      "messageId": "9001",
+      "channelId": "1234567890"
+    },
+    "embeds": []
+  },
+  {
+    "id": "9004",
+    "content": "Pagination is now enabled with `/demo pagination:25`. Try switching to the light theme too!",
+    "author": {
+      "id": "101",
+      "username": "LaunchUser",
+      "avatar": "https://cdn.discordapp.com/embed/avatars/2.png"
+    },
+    "timestamp": "2025-10-10T12:05:00.000Z",
+    "attachments": [],
+    "embeds": [],
+    "reactions": [
+      {
+        "emoji": { "name": "🌓" },
+        "count": 2
+      }
+    ],
+    "components": [
+      {
+        "type": 1,
+        "components": [
+          { "type": "success", "style": 1, "label": "Primary Button" },
+          { "type": 2, "style": 2, "label": "Secondary", "disabled": true },
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Open Docs",
+            "url": "https://github.com/your-org/discord-transcript-next"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "components": [
+            {
+                "type": 10,
+                "content": "Example components:"
+            },
+            {
+                "type": 10,
+                "content": "\nButtons"
+            },
+            {
+                "type": 1,
+                "components": [
+                    {
+                        "type": 2,
+                        "style": 5,
+                        "label": "Buttons that",
+                        "emoji": null,
+                        "disabled": false,
+                        "url": "https://google.com"
+                    },
+                    {
+                        "type": 2,
+                        "style": 1,
+                        "label": "you can",
+                        "emoji": null,
+                        "disabled": false,
+                        "custom_id": "36acfad8d418474084daed1d0d06bef2"
+                    },
+                    {
+                        "type": 2,
+                        "style": 2,
+                        "label": "drag around",
+                        "emoji": null,
+                        "disabled": false,
+                        "custom_id": "212dc1a845d54912cdff8446cdb3d321"
+                    }
+                ]
+            },
+            {
+                "type": 10,
+                "content": "\nSelect menus"
+            },
+            {
+                "type": 1,
+                "components": [
+                    {
+                        "type": 3,
+                        "custom_id": "99fca274f90a4070beb7086fdf335bfc",
+                        "options": [
+                            {
+                                "label": "Test selection",
+                                "value": "44c530edcff948c5e63764303419e252",
+                                "description": "test",
+                                "emoji": {
+                                    "id": null,
+                                    "name": "😜"
+                                },
+                                "default": true,
+                                "disabled": false
+                            },
+                            {
+                                "label": "Other selection",
+                                "value": "c0f60f084fc44e99ec904a89f83ffaf6",
+                                "description": null,
+                                "emoji": null,
+                                "default": false,
+                                "disabled": false
+                            }
+                        ],
+                        "placeholder": "",
+                        "min_values": 1,
+                        "max_values": 3,
+                        "disabled": false
+                    }
+                ]
+            },
+            {
+                "type": 10,
+                "content": "\nFiles"
+            },
+            {
+                "type": 13,
+                "file": {
+                    "url": "https://cdn.discordapp.com/attachments/1429788503767515157/1434015159365668965/IMG_6090.png?ex=690772f0&is=69062170&hm=eef1e3494a8ad7de0521f7eeaaaa16012b9ae97839eabb81066599fe654a847d&"
+                },
+                "spoiler": false
+            },
+            {
+                "type": 10,
+                "content": "\nImages"
+            },
+            {
+                "type": 12,
+                "items": [
+                    {
+                        "media": {
+                            "url": "https://avatars.githubusercontent.com/u/77593673?s=128"
+                        },
+                        "description": null,
+                        "spoiler": false
+                    }
+                ]
+            }
+        ]
+      }
+    ]
+  }
+]

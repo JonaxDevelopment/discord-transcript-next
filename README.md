@@ -1,7 +1,7 @@
 # discord-transcript-next
 
 [![npm version](https://img.shields.io/npm/v/discord-transcript-next.svg)](https://www.npmjs.com/package/discord-transcript-next)
-[![CI](https://github.com/your-org/discord-transcript-next/actions/workflows/test.yml/badge.svg)](https://github.com/your-org/discord-transcript-next/actions/workflows/test.yml)
+[![npm downloads](https://badgen.net/npm/dm/discord-transcript-next)](https://npm.im/discord-transcript-next)
 
 Universal, framework-agnostic Discord transcript generator and CLI that delivers 1:1 HTML replicas, JSON/Markdown/PDF exports, search, pagination, themes, and anonymisation — all without touching the live Discord API during testing.
 

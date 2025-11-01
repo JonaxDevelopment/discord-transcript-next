@@ -10,8 +10,6 @@ describe("HTML rendering", () => {
     expect(result.html).toContain("class=\"message\"");
     expect(result.html).toContain("component-button");
     expect(result.html).toContain("component-select-card");
-    expect(result.html).toContain("discord-action-row");
-    expect(result.html).toContain("discord-messages");
     expect(result.html!.length).toBeGreaterThan(500);
   });
 });

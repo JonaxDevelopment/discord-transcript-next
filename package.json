@@ -1,6 +1,6 @@
 {
   "name": "discord-transcript-next",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Universal, framework-agnostic Discord transcript generator with HTML, JSON, PDF, and Markdown outputs plus a CLI.",
   "license": "MIT",
   "author": "JonaxDevelopment",
@@ -8,6 +8,11 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "tests",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
